@@ -1,0 +1,6 @@
+# Ignore terraform state files and working directories
+*.tfstate
+.terraform
+
+# Ignore kitchen workspace
+.kitchen

@@ -1,0 +1,19 @@
+---
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+
+verifier:
+  name: terraform
+
+platforms:
+  - name: localhost
+    verifier:
+      systems:
+        - name: local
+          backend: local
+
+suites:
+  - name: default
